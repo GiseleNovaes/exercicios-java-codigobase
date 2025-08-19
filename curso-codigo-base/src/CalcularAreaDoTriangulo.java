@@ -5,6 +5,9 @@ public class CalcularAreaDoTriangulo {
 
 
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
         double base, altura, area;
 
         System.out.println("Digite o valor da base: ");
@@ -16,5 +19,5 @@ public class CalcularAreaDoTriangulo {
         area = (base * altura) / 2 ;
         System.out.println("O valor da área é: " + area);
     }
-
 }
+
